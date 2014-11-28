@@ -1,12 +1,11 @@
 import org.apache.tools.ant.taskdefs.condition.Os
 
-apply plugin: 'android-library'
+apply plugin: 'com.android.library'
 
 android {
     compileSdkVersion 19
     buildToolsVersion '19.1.0'
     defaultConfig {
-        applicationId 'at.talk4date.android.ogg'
         minSdkVersion 8
         targetSdkVersion 19
         versionCode 1
